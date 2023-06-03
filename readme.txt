@@ -16,4 +16,4 @@ Aktueller Stand
 Da neue Bild kommt korrekt von der Kamera --> aber die Grösse vom Framebuffer swir nicht korrekt angepasst.
 
 ...so wird das grössere JPG bei der Ausgabe einfach abgeschnitten.
-
+-
