@@ -1,11 +1,11 @@
-Diese Muster ist für Versuich mit der ESP Kamera abwechslungsweise aufzuhemehn
+Diese Muster ist für Versuch mit der ESP Kamera abwechslungsweise aufzuhemehn
 
 Grastufenbild mit 96x96 Pixel
 JPG mit bsp. VGA
 
 
 
-Diese zwei Funktionen sollten den Typ und Aufläsung umschalten
+Diese zwei Funktionen sollten den Typ und Auflösung umschalten
 --------------------------------------------------------------
 change_Picture_Format_to_JPEG();
 change_Picture_Format_to_GRAYSCALE();
