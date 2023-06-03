@@ -20,18 +20,18 @@ void Take_Pictures(){                                                           
   if ((Timer_Millis + 5000) < millis()){                                                 // Alle ?? mS
     Serial.print("Start ms ");
     Serial.println(millis());
-    esp_camera_deinit();
-    camera_config_jpg();
-    //change_Picture_Format_to_JPEG();
+    //esp_camera_deinit();
+    //camera_config_jpg();
+    change_Picture_Format_to_JPEG();
     take_Camera_Image_JPG();                                                                       // Bild aufnehmen JPG
     Serial.print("Jpg Buffer Len ");
     Serial.println(fb_jpg->len);
     esp_camera_fb_return(fb_jpg);
     fb_jpg = NULL;
 
-    esp_camera_deinit();
-    camera_config_gray();
-    //change_Picture_Format_to_GRAYSCALE();
+    //esp_camera_deinit();
+    //camera_config_gray();
+    change_Picture_Format_to_GRAYSCALE();
     take_Camera_Image_GRAY();
     esp_camera_fb_return(fb_gray);
     Serial.print("Gray Buffer Len ");
